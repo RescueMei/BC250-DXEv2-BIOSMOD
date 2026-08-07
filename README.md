@@ -1,9 +1,10 @@
 # BC250-DXEv2-BIOSMOD
-Central repo for the v2 of my bios patch, including two DXE drivers for CPU core unlock and ACPI injection.
+Central repo for the v2.1 of my bios patch, including three DXE drivers for CPU core unlock, ACPI injection, and auto cold boot!
 
 Drivers used:
 https://github.com/RescueMei/BC250-DXEv2-SMU-Core-Unlock
 https://github.com/RescueMei/BC250-DXEv2-ACPI-AUTOINJECT
+https://github.com/RescueMei/BC250-DXEv2-COLD-BOOT
 
 # CAUTION: ONLY USE THIS ON BC250s THAT HAVE BEEN VERIFIED TO HAVE ALL 8 CPU CORES FUNCTIONAL VIA ANOTHER METHOD FIRST
 

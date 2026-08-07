@@ -5,8 +5,8 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 # SOURCE_FILE="$SCRIPT_DIR/Robin3.00"
 SOURCE_FILE="$SCRIPT_DIR/BC250_3.00_CHIPSETMENU.ROM"
-TARGET_FILE="$SCRIPT_DIR/BC250_3.00_MeiMeiDXEv2.ROM"
-PATCH_FILE="$SCRIPT_DIR/BC250_3.00_CHIPSETMENU-to-BC250_3.00_MeiMeiDXEv2.xdelta"
+TARGET_FILE="$SCRIPT_DIR/BC250_3.00_MeiMeiDXEv2.1.ROM"
+PATCH_FILE="$SCRIPT_DIR/BC250_3.00_CHIPSETMENU-to-BC250_3.00_MeiMeiDXEv2.1.xdelta"
 MD5_FILE="$SCRIPT_DIR/MD5SUMS.txt"
 
 require_cmd() {
@@ -40,8 +40,8 @@ echo "Generating MD5 manifest..."
     cd "$SCRIPT_DIR"
     md5sum \
         "BC250_3.00_CHIPSETMENU.ROM" \
-        "BC250_3.00_MeiMeiDXEv2.ROM" \
-        "BC250_3.00_CHIPSETMENU-to-BC250_3.00_MeiMeiDXEv2.xdelta" \
+        "BC250_3.00_MeiMeiDXEv2.1.ROM" \
+        "BC250_3.00_CHIPSETMENU-to-BC250_3.00_MeiMeiDXEv2.1.xdelta" \
         > "MD5SUMS.txt"
 )
 
@@ -52,6 +52,6 @@ echo "  $MD5_FILE"
 echo
 echo "Distribute these files:"
 echo "  Apply Delta Patch.sh"
-echo "  BC250_3.00_CHIPSETMENU-to-BC250_3.00_MeiMeiDXEv2.xdelta"
+echo "  BC250_3.00_CHIPSETMENU-to-BC250_3.00_MeiMeiDXEv2.1.xdelta"
 echo "  MD5SUMS.txt"
 echo "  README.txt"
