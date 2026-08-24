@@ -1,3 +1,7 @@
+# SUPERSEDED: See the V3 here
+
+https://github.com/RescueMei/BC250-DXEv3-BIOSMOD
+
 # BC250-DXEv2-BIOSMOD
 Central repo for the v2.1 of my bios patch, including three DXE drivers for CPU core unlock, ACPI injection, and auto cold boot!
 
